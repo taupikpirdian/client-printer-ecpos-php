@@ -1,0 +1,38 @@
+{
+    "printers": [
+        {
+            "id": "b4895b29a8e969789931a21edcbcc93f",
+            "title": "XPrinter",
+            "type": "network",
+            "profile": "default",
+            "char_per_line": "45",
+            "path": "",
+            "ip_address": "192.168.2.200",
+            "port": "9100"
+        },
+        {
+            "id": "e1d4e8962290c58295e990f6bc33832d",
+            "title": "POS58",
+            "type": "windows",
+            "profile": "default",
+            "char_per_line": "45",
+            "path": "smb:\/\/127.0.0.1\/pos58",
+            "ip_address": "",
+            "port": ""
+        },
+        {
+            "id": "e1d4e8962290c58295e990f6bc331234",
+            "title": "EPSON TM-U220 Receipt",
+            "type": "windows",
+            "profile": "default",
+            "char_per_line": "30",
+            "path": "smb:\/\/127.0.0.1\/EPSON TM-U220 Receipt",
+            "ip_address": "",
+            "port": ""
+        }
+    ],
+    "receipt_printer": "e1d4e8962290c58295e990f6bc331234",
+    "order_printers": [
+        "e1d4e8962290c58295e990f6bc331234"
+    ]
+}
